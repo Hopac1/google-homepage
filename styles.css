@@ -90,6 +90,20 @@ a:visited {
 
 }
 
+#search-icon {
+    width: 20px;
+    position: absolute;
+    /* left: 645px; */
+    left: 35%;
+}
+
+#mic-icon {
+    width: 25px;
+    position: absolute;
+    /* right: 645px; */
+    right: 35%;
+}
+
 #google-search {
     margin-right: 10px;
     border: none;

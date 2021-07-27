@@ -7,3 +7,5 @@ and I hope to level up my ability to look at a design and replicate it in code. 
 into my clone, but visually it will look similar.
 
 <!-- Write what skills you have demonstrated once you have completed it. -->
+
+The skills I've demonstrated are learning how to structure a HTML document and finding ways to keep my styles.css file clean. In the future I will optimise my websites for use on different devices and screen sizes because as it stands, this web page isn't optimized for anything other than my screen.
