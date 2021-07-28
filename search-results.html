@@ -3,10 +3,13 @@
     <head>
         <title>build this webpage</title>
         <link rel="stylesheet" href="search-results.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="logo-and-search">
+        <div class="top-nav">
             <img class="google-logo" src="google_logo.png" alt="google-logo">
             <form>
                 <input type="text" id="search-bar">
@@ -16,15 +19,64 @@
                 <div class="verticle-line"></div>
             </form>
 
-            <div class="top-right-nav">
-                <div class="settings">
-                    <a href="#">
-                        <img src="/settings-icon/1x/settings-icon.png" alt="settings-icon">
-                    </a>
-                </div>
+            <div class="settings">
+                <a href="#">
+                    <img src="/settings-icon/1x/settings-icon.png" alt="settings-icon">
+                </a>
+            </div>
+
+            <div class="apps">
+                <a href="#">
+                    <img src="apps-icon/1x/outline_apps_black_24dp.png" alt="apps-icon">
+                </a>
+            </div>
+
+            <div class="pfp">
+                <a href="#">
+                    <img id="profile-pic" src="pfp.jpg" alt="profile-picture">
+                </a>
             </div>
         </div>
 
+        <div class="main-nav-bar">
+            
+            <div class="all main-link">
+                <a href="#">
+                    All
+                </a>
+            </div>
+            <div class="news main-link">
+                <a href="#">
+                    News
+                </a>
+            </div>
+            <div class="videos main-link">
+                <a href="#">
+                    Videos
+                </a>
+            </div>
+            <div class="maps main-link">
+                <a href="#">
+                    Maps
+                </a>
+            </div>
+            <div class="shopping main-link">
+                <a href="#">
+                    Shopping
+                </a>
+            </div>
+            <div class="more main-link">
+                <a href="#">
+                    More
+                </a>
+            </div>
+            <div class="tools main-link">
+                <a href="#">
+                    Tools
+                </a>
+            </div>
+        </div>
+        <hr class="top-nav-br">
         
     </body>
 </html>

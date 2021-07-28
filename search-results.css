@@ -1,8 +1,24 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+  } 
+        /* Top nav styles */
+
 .google-logo {
     float: left;
     width: 7%;
     margin-top: 1%;
     margin-right: 1%;
+    margin-left: 0.5%;
 }
 
 #search-bar {
@@ -22,19 +38,19 @@
 #cross-icon {
     position: absolute;
     left: 39%;
-    top: 35%;
+    top: 43%;
 
 }
 
 #search-icon {
     position: absolute;
-    top: 35%;
+    top: 43%;
     left: 44%;
 }
 
 #mic-icon {
     position: absolute;
-    top: 35%;
+    top: 43%;
     left: 42%;
 }
 
@@ -43,9 +59,86 @@
     height: 30px;
     border-left: solid 1px #dfe1e5;
     left: 41%;
-    top: 32%;
+    top: 43%;
 }
 
-.logo-and-search {
+.settings {
+    position: absolute;
+    right: 6.5%;
+    top: 50%;
+}
+
+.apps {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+}
+
+.top-nav {
     position: relative;
+}
+
+
+        /* Main nav styles */
+
+.main-nav-bar {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 169px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 13.5px;
+}
+
+.all {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.news {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.videos {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.maps {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.shopping {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.more {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.tools {
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 200px;
+}
+
+.top-nav-br {
+    margin-top: 20px;
 }
