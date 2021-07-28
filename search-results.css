@@ -1,0 +1,51 @@
+.google-logo {
+    float: left;
+    width: 7%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+#search-bar {
+    display: inline-block;
+    justify-content: center;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    height: 44px;
+    width: 38%;
+    border-radius: 24px;
+    border-width: 1px;
+    border: solid 1px rgb(167, 164, 164);
+    text-indent: 8%;
+
+}
+
+#cross-icon {
+    position: absolute;
+    left: 39%;
+    top: 35%;
+
+}
+
+#search-icon {
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+#mic-icon {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+
+.verticle-line {
+    position: absolute;
+    height: 30px;
+    border-left: solid 1px #dfe1e5;
+    left: 41%;
+    top: 32%;
+}
+
+.logo-and-search {
+    position: relative;
+}
