@@ -1,16 +1,19 @@
 body {
     margin-left: 0px;
     margin-right: 0px;
+    font-family: 'Open Sans', sans-serif;;
 }
 
-a:link {
+.main-nav-bar a:link {
     text-decoration: none;
 }
 
-a:visited {
+.main-nav-bar a:visited {
     text-decoration: none;
     color: rgb(61, 61, 61);
   } 
+
+
         /* Top nav styles */
 
 .google-logo {
@@ -148,4 +151,107 @@ a:visited {
     font-size: 13.5px;
     color:rgb(80, 80, 80);
     margin-left: 9%;
+    margin-bottom: 1.5%;
 }
+
+        /* Page results styles */
+
+h3 {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+p {
+    margin-top: 0.5%;
+}
+
+h2 {
+
+    color: rgb(44, 44, 44);
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    display: inline;
+    font-size: 20px;
+}
+
+h4 {
+    display: inline;
+    position: relative;
+    bottom: 3rem;
+}
+
+.main-col {
+    margin-left: 9%;
+}
+
+.people-also-search-for-box {
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 10px;
+    width: 35%;
+    height: 150px;
+}
+
+.people-also-search-for {
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+ul.a {
+    list-style-type: none;
+}
+
+.short-hr {
+    position: absolute;
+    width: 35%;
+}
+
+.videos-h2 {
+    margin-top: 20px;
+    position: relative;
+}
+
+.video-one {
+    margin-top: 1%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.video-two {
+    position: absolute;
+    top: 10rem;
+    border-radius: 5px;
+}
+
+.video-info {
+    font-size: 14px;
+    position: absolute;
+    left: 9rem;
+    bottom: 1%;
+}
+
+.short-hr-two {
+    top: 9rem;
+}
+
+.video-three {
+    position: absolute;
+    top: 17rem;
+}
+
+.short-hr-three {
+    top: 16rem;
+}
+/* 
+______________________________________
+|    <------NEEDS ADJUSTING--------->  |
+|______________________________________|
+
+.site-h3 a:link {
+    text-decoration: none;
+}
+
+
+.site-h3 a:hover {
+    text-decoration: underline;
+}  */
+
