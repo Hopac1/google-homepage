@@ -1,5 +1,7 @@
 # google-homepage
 
+[Live demo](https://hopac1.github.io/google-homepage/index.html) 👈
+
 <!-- Write a brief introduction for what the current project is. -->
 
 This project is a clone of the Google homepage using HTML and CSS. I'm doing this project as part of The Odin Project's Foundations course,
